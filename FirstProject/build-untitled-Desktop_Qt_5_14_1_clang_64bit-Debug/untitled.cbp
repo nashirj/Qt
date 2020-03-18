@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Quick\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5QmlModels\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QML_DEBUG"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QMLMODELS_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+					<Add directory="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled"/>
+					<Add directory="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled_autogen/include"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQuick.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQuick.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQmlModels.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQmlModels.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQml.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQml.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtNetwork.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtNetwork.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QML_DEBUG"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QMLMODELS_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+					<Add directory="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled"/>
+					<Add directory="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled_autogen/include"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQuick.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQuick.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQmlModels.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQmlModels.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQml.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtQml.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtNetwork.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtNetwork.framework/Headers"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/nashish/Qt/5.14.1/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled_autogen">
+				<Option working_dir="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 untitled_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled_autogen/EWIEGA46WW/qrc_qml.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled_autogen/EWIEGA46WW/qrc_qml.cpp.rule">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled_autogen/mocs_compilation.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/qml.qrc">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/qml.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5QmlModels\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5QmlModels\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/untitled/../../../../../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

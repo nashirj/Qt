@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nashish/Documents/Education/CS/C++/Qt/FirstProject/build-untitled-Desktop_Qt_5_14_1_clang_64bit-Debug/untitled_autogen/EWIEGA46WW/qrc_qml.cpp
+
